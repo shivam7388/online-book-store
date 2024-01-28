@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+<style>
+body {
+    background-color: #E4F0F8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+center {
+    margin-top: 10px;
+}
+
+font {
+    color: blue;
+}
+
+form {
+    margin: 20px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #45a049;
+}
+
+</style>
+</head>
+<body bgcolor="#E4F0F8">
+    <center>
+        <font color="blue" size="6" face="arial">Registration Form</font>
+    </center>
+    <br />
+
+    <form action="right.html">
+        First Name (Minimum 6 characters)<font color="red">*</font>
+        <input type='text' id='firstname' /><br /><br />
+
+        Last Name<font color="red">*</font> &nbsp;&nbsp;&nbsp;
+        <input type='text' id='lastname' /><br /><br />
+
+        Email Address<font color="red">*</font> &nbsp;&nbsp;&nbsp;
+        <input type='text' id='email' /><br />
+        <font color="red">(one e-mail id only):</font> &nbsp;&nbsp;&nbsp;
+        <font color="redblue">e.g. smith@hotmail.com</font><br /><br/>
+
+        Password (minimum 6 characters)<font color="red">*</font> &nbsp;&nbsp;&nbsp;
+        <input type='password' id='pass'><br /><br/>
+
+        Address<font color="red">*</font> &nbsp;&nbsp;&nbsp;
+        <textarea rows="2" cols="20" id='addr'></textarea> <br /> <br/>
+
+        Mobile No<font color="red">*</font> &nbsp;&nbsp;&nbsp;
+        <input type='text' id='mobileno' /><br />
+
+        Gender:
+        <input type='radio' name="gender" id='male'> Male
+        <input type='radio' name="gender" id='female'> Female<br/><br />
+
+        <input type='Submit' value='Submit' />
+        <input type='Reset' value='Reset' />
+    </form>
+</body>
+</html>

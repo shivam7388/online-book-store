@@ -1,0 +1,85 @@
+<html>
+<head><title>CSE</title>
+<style>
+body {
+    background-color:#dce7753d;
+}
+
+h1 {
+    color: blue;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+select, input {
+    padding: 5px;
+    width: 150px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+pre {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+center {
+    margin-top: 20px;
+}
+
+</style>
+</head>
+<body bgcolor="cyan">
+
+<center>
+<font color="blue"><h1>Computer Science and Engineering</h1></font>
+</center>
+<br>
+<table align="center">
+<tr>
+<td>Text Books</td>
+<td>
+<select >
+<option value="select the book" selected>Select the book
+<option value="C&Ds">C&Ds
+<option value="Ads">Ads
+<option value="Java">Java
+<option value="Oracle">Oracle
+<option value="Ms SQL Server">Ms SQL Server
+<option value="MySql">MySql
+</select>
+</td>
+</tr>
+<tr>
+<td>Quantity</td>
+<td><input type="text" id="q"></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<form method=post action="order.html">
+<input type="submit" value=ok />
+</form>
+</td>
+</tr>
+</table>
+<center>
+<pre> Cost of one book is"500" + shipping "100" </pre>
+</center>
+</body>
+</html>
